@@ -1,0 +1,25 @@
+.title{
+    font-size: 18px;
+    font-weight: bold;
+    text-indent: 1em;
+    line-height: 36px;
+    background: red url("2.png")260px 10px no-repeat;
+}
+#nav{
+    width: 300px;
+}
+ul li{
+    height: 30px;
+    list-style: none;
+    text-indent: 1em;
+    background: gray url("2.png") 200px 2px no-repeat;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+a:hover{
+color: orange;
+    text-decoration: underline;
+}
