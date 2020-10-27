@@ -1,0 +1,36 @@
+div{
+    margin: 10px;
+    padding: 5px;
+}
+#father{
+    border: 1px #000 solid;
+}
+.layer1 {
+    border: 1px yellow dashed;
+    display: inline-block;
+float: left;
+
+}
+
+.layer3 {
+    border: 1px yellow dashed;
+    display: inline-block;
+    float: left;
+
+}
+.layer4 {
+    border: 1px yellow dashed;
+    display: inline-block;
+    float: left;
+
+}
+.layer5 {
+    border: 1px yellow dashed;
+    display: inline-block;
+    float: left;
+}
+#father:after{
+    content: '';
+    display: block;
+    clear: both;
+}
