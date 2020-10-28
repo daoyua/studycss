@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            margin: 10px;
+            padding: 5px;
+            font-size: 12px;
+            line-height: 25px;
+        }
+        #father{
+            height: 1000px;
+            border:1px solid #666
+        }
+        #first{
+            background-color: grey;
+            border:1px dashed yellow;
+
+        }
+        #second{
+            background-color: green;
+            border:1px dashed blue;
+        }
+        #third{
+            background-color: orange;
+            border:1px dashed green;
+        }
+        .div1{
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+        }
+        .div2{
+            width: 50px;
+            height: 50px;
+            background: orange;
+            position: fixed;
+            right: 0px;
+            bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+<div id="father">
+    <div id="first">第一个盒子</div>
+    <div id="second">第二个盒子</div>
+    <div id="third">第三个盒子</div>
+    <div class="div1">div1</div>
+    <div class="div2">div2</div>
+</div>
+</body>
+</html>
